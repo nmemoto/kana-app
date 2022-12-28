@@ -1,4 +1,5 @@
-import React, { Suspense } from "react";
+import React from "react";
+import { Header } from "./Header";
 import { KanaComponent } from "./KanaComponent";
 import { KanaTable } from "./KanaTable";
 import { KanaToggle } from "./KanaToggle";
@@ -55,13 +56,7 @@ function App() {
 
   return (
     <div className="App">
-      <nav className="flex items-center justify-between flex-wrap bg-green-500 p-3">
-        <div className="flex items-center flex-no-shrink text-white mr-6">
-          <span className="font-semibold text-xl tracking-tight">
-            ひらかな と カタカナ の かきじゅん と おと
-          </span>
-        </div>
-      </nav>
+      <Header />
       <div className="p-2">
         <KanaToggle
           onHiraganaClick={() => {
