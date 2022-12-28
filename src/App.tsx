@@ -58,7 +58,7 @@ function App() {
       <nav className="flex items-center justify-between flex-wrap bg-green-500 p-3">
         <div className="flex items-center flex-no-shrink text-white mr-6">
           <span className="font-semibold text-xl tracking-tight">
-            かな おと かきじゅん
+            ひらかな と カタカナ の かきじゅん と おと
           </span>
         </div>
       </nav>
