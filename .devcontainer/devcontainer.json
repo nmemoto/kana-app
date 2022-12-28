@@ -1,0 +1,21 @@
+{
+    "name": "kana-app",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "cacheFrom": "ghcr.io/nmemoto/kana-app"
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/node:1": {
+          "version": "latest"
+      }
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "bradlc.vscode-tailwindcss"
+        ]
+      }
+    },
+    "remoteUser": "vscode"
+  }
